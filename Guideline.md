@@ -76,8 +76,6 @@ print(
 
 
 
-![image-20220425234359606](C:\Users\ceraas\AppData\Roaming\Typora\typora-user-images\image-20220425234359606.png)
-
 # Step 6 
 
 Application of model to convert Radar signal into Soil moisture 
@@ -99,10 +97,6 @@ var soilmoisture = collection
 var chart_SM= ui.Chart.image.series(soilmoisture.select('SSM'), region, ee.Reducer.mean(), 10)
 print('Soil Moisture variation: ', chart_SM)
 ````
-
-
-
-![image-20220425234750882](C:\Users\ceraas\AppData\Roaming\Typora\typora-user-images\image-20220425234750882.png)
 
 
 
@@ -156,4 +150,3 @@ var legendPanel = ui.Panel([legendTitle, colorBar, legendLabels]);
 Map.add(legendPanel);
 ````
 
-![image-20220425234236699](C:\Users\ceraas\AppData\Roaming\Typora\typora-user-images\image-20220425234236699.png)
